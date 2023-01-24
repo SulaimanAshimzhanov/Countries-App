@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(59, 48, 59);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    list-style: none;
+}
+
+.signOut {
+    width: 80px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: brown;
+    box-shadow: 0 0 10px brown;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.signOut:hover {
+    background-color: transparent;
+    box-shadow: 0 0 10px rgb(15, 165, 110);
+    color: rgb(15, 165, 110);
+    border: 1px solid rgb(15, 165, 110);
+}
+
+.navbar h2 {
+    color: rgb(15, 165, 110);
+    text-shadow: 0 0 20px rgb(15, 165, 110);
+}
+
+.navbar ul li {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(15, 165, 110);
+    transition: .5s;
+}
+
+.navbar ul li:hover {
+    color: aquamarine;
+    text-shadow: 0 0 20px white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.row button {
+    width: 70%;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(68, 113, 236);
+    box-shadow: 0 0 6px white;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.row button:hover {
+    background-color: transparent;
+    border: 2px solid yellow;
+    box-shadow: 0 0 20px white;
+}
+
+.card {
+    width: 30%;
+    height: 400px;
+    background-color: rgb(83, 114, 129);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px white;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.region {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.withCountries .btn {
+    width: 30%;
+    padding: 5px 10px;
+    position: relative;
+    top: -40px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.withCountries {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CountriesImage {
+    width: 50%;
+    height: 100px;
+    line-height: 150px;
+    transition: .5s;
+}
+
+.CountriesImage img {
+    width: 100%;
+    transition: .5s;
+}
+
+.CountiesContent {
+    line-height: 60px;
+}
+
+.CountiesContent h2 {
+    font-size: 30px;
+    color: rgb(155, 142, 142);
+    transition: .8s;
+}
+
+.CountiesContent h2:hover {
+    color: white;
+    font-size: 40px;
+}

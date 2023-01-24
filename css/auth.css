@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: url("https://novate.ru/files/u34476/flags-999.jpg") center / cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(82, 80, 80, .9);
+    border-radius: 10px;
+    padding: 20px;
+    width: 780px;
+    height: 460px;
+    text-align: center;
+    align-items: center;
+}
+
+.card form input {
+    width: 75%;
+    padding: 30px 20px;
+    margin: 5px 0;
+    border: 0;
+    font-size: 20px;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    color: white;
+}
+
+.card form .error {
+    color: rgb(255, 2, 2);
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.card form button {
+    padding: 25px 20px;
+    width: 65%;
+    color: white;
+    background-color: rgb(241, 133, 10);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.card form button:hover {
+    color: black;
+    background-color:  rgba(241, 133, 10, 0.8);
+    box-shadow: 0 0 50px rgb(241, 183, 100);
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link a {
+    color: rgb(209, 200, 200);
+    font-size: 16px;
+}
